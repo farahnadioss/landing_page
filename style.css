@@ -89,7 +89,7 @@ a {
 }
 
 .profile {
-    padding: 40px 250px 100px;
+    padding: 40px 250px 130px;
 }
 
 .subject {
@@ -113,26 +113,35 @@ a {
 }
 
 .info {
-   max-width: 200px;
+    max-width: 200px;
 }
 
 /*quote part*/
-.lyric {
-    font-weight: 300;
-}
-
 em {
     quotes: """ """;
 }
 
 em::before {
-  content: open-quote;
+    content: open-quote;
 }
 
 em::after {
-  content: close-quote;
+    content: close-quote;
+}
+
+.lyric {
+    font-weight: 300;
+    text-align: justify;
 }
 
 .quote {
     background-color: #e5e7eb;
+    padding: 130px 300px;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1F2937;
+    text-align: end;
 }
