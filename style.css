@@ -60,6 +60,7 @@ a {
     padding: 8px 29px;
     border-radius: 8px;
     border-color: #3882f6;
+    cursor: pointer;
 }
 
 .top {
@@ -116,7 +117,6 @@ a {
     max-width: 200px;
 }
 
-/*quote part*/
 em {
     quotes: """ """;
 }
@@ -144,4 +144,37 @@ em::after {
     font-weight: 700;
     color: #1F2937;
     text-align: end;
+}
+
+.sign-up {
+    padding: 100px 200px;
+}
+
+.box {
+    background-color: #3882f6;
+    padding: 60px 150px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.details {
+    max-width: 550px;
+}
+
+.detail-one {
+    font-size: 22px;
+    font-weight: 700;
+    color: #f9faf8;
+    margin-bottom: 4px;
+}
+
+.detail-two {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.detail-button {
+   border: #f9faf8 solid 3px;
+   align-self: center;
 }
