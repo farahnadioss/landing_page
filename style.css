@@ -178,3 +178,8 @@ em::after {
    border: #f9faf8 solid 3px;
    align-self: center;
 }
+
+.footer {
+    padding: 35px 0;
+    text-align: center;
+}
