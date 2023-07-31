@@ -1,5 +1,20 @@
+@font-face {
+    font-family: roboto;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto-light;
+    src: url(fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: roboto-bold;
+    src: url(fonts/Roboto-Bold.ttf);
+}
+
 body {
-    font-family: Roboto, sans-serif;
+    font-family: roboto, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -42,6 +57,11 @@ a {
     color: #f9faf8;
 }
 
+.title, .subject {
+    font-family: roboto-bold;
+    font-weight: 900;
+}
+
 .logo {
     font-size: 24px;
     font-weight: 700;
@@ -49,7 +69,6 @@ a {
 
 .title {
     font-size: 48px;
-    font-weight: 800;
     margin-bottom: 12px;
 }
 
@@ -94,7 +113,6 @@ a {
 }
 
 .subject {
-    font-weight: 800;
     text-align: center;
     margin-bottom: 60px;
 }
@@ -130,6 +148,7 @@ em::after {
 }
 
 .lyric {
+    font-family: roboto-light;
     font-weight: 300;
     text-align: justify;
 }
