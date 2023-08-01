@@ -213,3 +213,20 @@ em::after {
     padding: 2rem 1rem;
     text-align: center;
 }
+
+/*HEADER*/
+
+@media screen and (max-width: 1289px) {
+    .content {
+       flex-direction: column;
+       gap: 40px;
+    }
+
+    .header-image {
+        max-width: fit-content;
+    }
+
+    .section {
+        max-width: fit-content;
+    }
+}
