@@ -247,3 +247,22 @@ em::after {
         max-width: 250px;
     }
 }
+
+/*SIGN-UP*/
+
+@media screen and (max-width: 1289px) {
+    .box {
+        gap: 100px;
+    }
+}
+
+@media screen and (max-width: 1096px) {
+    .box {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .detail-button {
+        align-self: flex-start;
+    }
+}
