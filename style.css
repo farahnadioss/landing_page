@@ -234,3 +234,16 @@ em::after {
         order: 2;
     }
 }
+
+/*PROFILE*/
+
+@media screen and (max-width: 1289px) and (min-width: 985px) {
+    .container {
+        max-width: 850px;
+    }
+
+    .profile-image {
+        width: 100%;
+        max-width: 250px;
+    }
+}
