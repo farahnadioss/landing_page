@@ -132,6 +132,9 @@ a {
 .container {
     display: flex;
     gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .text {
@@ -142,7 +145,6 @@ a {
 }
 
 .info {
-    max-width: 200px;
     display: flex;
     flex-direction: column;
     gap: 20px;
