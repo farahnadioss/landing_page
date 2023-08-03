@@ -398,19 +398,92 @@ em::after {
 
 /*SIGN-UP*/
 
-@media screen and (max-width: 1289px) {
+@media screen and (max-width: 1351px) {
     .box {
         gap: 100px;
     }
 }
 
-@media screen and (max-width: 1096px) {
+@media screen and (max-width: 1251px) {
+    .sign-up {
+        padding: 5rem 9rem;
+    }
+}
+
+@media screen and (max-width: 1155px) {
+    .sign-up {
+        padding: 5rem 8rem;
+    }
+
     .box {
         flex-direction: column;
         gap: 20px;
+        padding: 3rem 5rem;
+    }
+
+    .detail-one {
+        font-size: 20px;
+    }
+
+    .detail-two {
+        font-size: 16px;
     }
 
     .detail-button {
         align-self: flex-start;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 815px) {
+    .sign-up {
+        padding: 5rem 7rem;
+    }
+
+    .box {
+        padding: 3rem 4rem;
+    }
+
+    .detail-one {
+        font-size: 18px;
+    }
+
+    .detail-two {
+        font-size: 14px;
+    }
+
+    .detail-button {
+        font-size: 14px;
+        padding: 8px 27px;
+        border-radius: 7px;
+    }
+}
+
+@media screen and (max-width: 597px) {
+    .sign-up {
+        padding: 5rem 6rem;
+    }
+
+    .box {
+        padding: 3rem 3rem;
+    }
+}
+
+@media screen and (max-width: 533px) {
+    .sign-up {
+        padding: 5rem 5rem;
+    }
+
+    .detail-one {
+        font-size: 17px;
+    }
+
+    .detail-two {
+        font-size: 13px;
+    }
+
+    .detail-button {
+        font-size: 13px;
+        padding: 8px 25px;
     }
 }
