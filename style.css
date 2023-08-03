@@ -219,6 +219,10 @@ em::after {
 /*HEADER*/
 
 @media screen and (max-width: 1289px) {
+    .header {
+        padding: 1rem 6rem 6rem;
+    }
+
     .content {
        flex-direction: column;
        gap: 40px;
@@ -232,6 +236,49 @@ em::after {
     .section {
         max-width: fit-content;
         order: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .intro {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 915px) {
+    .header {
+        padding: 1rem 3rem 6rem;
+    }
+
+    .title {
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .header {
+        padding: 1rem 2rem 6rem;
+    }
+
+    .title {
+        font-size: 44px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .title {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    .title {
+        font-size: 36px;
     }
 }
 
