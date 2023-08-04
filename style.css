@@ -105,6 +105,50 @@ a {
     justify-content: space-between;
 }
 
+.navsec {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+}
+
+.search-bar {
+    background-color: rgb(25, 23, 23);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0;
+    padding-left: 0.8rem;
+}
+
+.search-bar input {
+    all: unset;
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    color: #e5e7eb;
+}
+
+::placeholder {
+    color: #e5e7eb;
+    opacity: 0.5;
+}
+
+.search-bar button img {
+    width: 18px;
+}
+
+.search-bar button {
+    background: black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
 .content {
     display: flex;
     align-items: center;
