@@ -132,6 +132,7 @@ a:hover {
     border: 0;
     outline: none;
     color: #e5e7eb;
+    width: 236px;
 }
 
 ::placeholder {
@@ -151,6 +152,10 @@ a:hover {
     cursor: pointer;
     width: 30px;
     height: 30px;
+}
+
+.search-bar:hover > button {
+    background-color: rgb(72, 68, 68);
 }
 
 .content {
@@ -324,6 +329,7 @@ em::after {
     .search-bar:hover > button {
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
+        background-color: rgb(72, 68, 68);
     }
 
     .search-bar button {
