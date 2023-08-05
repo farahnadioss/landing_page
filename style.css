@@ -54,6 +54,10 @@ a {
     color: #e5e7eb;
 }
 
+a:hover {
+    color: rgba(254, 244, 226, 0.893);
+}
+
 .navigation, .intro, .detail-two, .footer{
     font-size: 18px;
     color: #e5e7eb;
@@ -321,7 +325,7 @@ em::after {
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
     }
-    
+
     .search-bar button {
         border-radius: 10px;
     }
