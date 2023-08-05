@@ -302,6 +302,29 @@ em::after {
     .title {
         font-size: 48px;
     }
+
+    .search-bar {
+        padding-left: 0;
+    }
+
+    .search-bar input {
+        width: 0;
+    }
+
+    .search-bar:hover > input {
+        width: 200px;
+        padding-left: 0.8rem;
+        transition: width 0.5s ease-in-out;
+    }
+
+    .search-bar:hover > button {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    
+    .search-bar button {
+        border-radius: 10px;
+    }
 }
 
 @media screen and (max-width: 650px) {
@@ -311,6 +334,10 @@ em::after {
 
     .title {
         font-size: 44px;
+    }
+
+    .contact {
+        display: none;
     }
 }
 
