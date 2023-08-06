@@ -2,13 +2,13 @@
 
 This is a landing page made for the project on The Odin Project Foundations course. It's a fansite of a girl group aespa using the website design template provided by The Odin Project.
 
-### Demonstrated skills:
+### Demonstrated skills
 
 - HTML
 - CSS
   - Flexbox
 
-### Skills learned:
+### Skills learned
 
 1. Able to put the contents to its respective places (mainly using flex).
 2. Able to adjust the look of the website according to the screen view (using @media).
@@ -17,7 +17,7 @@ This is a landing page made for the project on The Odin Project Foundations cour
     - Finding ideas for the contents
     - Trying out desired styling
   
-### Credits:
+### Credits
 
 1. [Search icon](https://icons8.com/icon/132/search) by [icons8](https://icons8.com)
 2. All [aespa images](https://kpopping.com/kpics/aespa-The-2nd-Mini-Album-Girls-Concept-Teasers) by [kpopping](https://kpopping.com)
